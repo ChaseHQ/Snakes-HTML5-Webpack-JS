@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    background-color: #3691f8;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game {
+    margin: 0 auto;
+    width: 600px;
+    height: 700px;
+    background-image: url('assets/snake-background.png');
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    display: flex;
+    justify-content: center;
+}
+
+#snake-game {
+    width: 600px;
+    height: 400px;
+    align-self: flex-end;
+    background-color: black;
+    image-rendering: pixelated;
+}
